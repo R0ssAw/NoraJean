@@ -1,0 +1,129 @@
+/* Common Nav Styles */
+.navigation-wrapper {
+    height:80px;
+    background-color: rgb(170, 191, 197);
+    color: #c5a13d;
+    /*Flexbox Container*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 100px;
+    border-bottom: 9px solid rgb(209, 209, 209);
+}
+
+/* Left Column Styles*/
+.navigation-wrapper > .left-column {
+    display:flex;
+    align-items: center;
+  }
+  
+  
+  .navigation-wrapper > .left-column > .icon {
+    margin-right:15px;
+  }
+  
+  .navigation-wrapper > .left-column > .icon i {
+    font-size: 2em;
+    color: rgb(62, 121, 77);
+  }
+  
+  .navigation-wrapper > .left-column > .phone-hours {
+      display:grid;
+      grid-template-columns: 1fr;
+      grid-gap: 10px;
+      color:  rgb(62, 121, 77);
+  }
+  
+  .navigation-wrapper > .left-column > .phone-hours > .hours {
+      font-family: 'Ubuntu Condensed', sans-serif;
+      font-size: 0.8em;
+  }
+  
+  .links-wrapper > .nav-link a {
+    font-family;
+    color:white;
+  }
+
+
+  /*Center Column Styles*/
+.navigation-wrapper > .center-column {
+  display: grid;
+  grid-template-columns: 2fr;
+  grid-gap: 20px;
+  width: 500px;
+}
+
+.navigation-wrapper > .center-column > .center-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .business-name {
+  display: flex;
+  justify-content: center;
+  font-size:60px;
+  font-family: 'Lobster', cursive;
+}
+
+.links-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+} 
+
+
+.links-bar > .nav-link {
+  width: 100px;
+  text-align: center;
+}
+
+.links-bar > .nav-link a{
+  font-family: "ubuntu Condensed", sans-serif;
+  color: #c5a13d;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+
+.links-bar > .nav-link a:hover{
+  color: #e4997e;
+  letter-spacing: 3px;
+}
+
+/*right Column Styles*/
+
+.navigation-wrapper >.right-column{
+  display: flex;
+  align-items: center;
+}
+
+
+.navigation-wrapper >.right-column > .address-wrapper {
+font-family: 'Ubuntu Condensed', sans-serif;
+text-align: center;
+}
+
+.navigation-wrapper >.right-column > .address-wrapper a {
+  color: rgb(62, 121, 77);
+  text-decoration: none;
+  font-size: 0.9em;
+  transition: 0.5s;
+}
+
+.navigation-wrapper >.right-column > .address-wrapper a:hover {
+color: #FF7F50;
+}
+
+.navigation-wrapper > .right-column > .location-icon{
+  margin-left: 15px;
+  font-size: 2em;
+}
+
+.navigation-wrapper > .right-column > .location-icon a {
+  color:rgb(62, 121, 77); 
+  transition: 0.5s;
+}
+
+.navigation-wrapper > .right-column > .location-icon a:hover {
+color:#FF7F50; 
+}

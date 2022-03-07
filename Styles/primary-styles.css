@@ -1,0 +1,85 @@
+body {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.primary-section {
+    /*background-image: url(../images/salon2.JPG);
+    
+    background-attachment:fixed;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size:cover;*/
+}
+
+.center-vid {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+    width:100%;
+    height: auto;
+    padding: 0px;
+    height: 704px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+  }
+
+.primary-section > .top-heading {
+    padding: 0px 8px;
+    background-color: transparent;
+    color:#FF7F50;
+    width:200px;
+    border-radius: 0px;
+}
+
+.primary-section > .bottom-heading {
+    padding: 0px 6px;
+    background-color: transparent;
+    color:#FF7F50;
+    margin-top: 20px;
+    width: 126px;
+    border-radius: 3px;
+}
+
+.features-section {
+    
+    height:175px;
+    background-color:rgb(170, 191, 197);
+    border-top: 9px solid rgb(209, 209, 209);
+    color:rgb(62, 121, 77);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.features-section > .columns-wrapper {
+    width:1000px;
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+}
+
+.features-section > .columns-wrapper > .column {
+    padding: 20px;
+    margin 42px;
+    text-align: center;
+}
+
+.features-section > .columns-wrapper > .column:hover {
+    border-bottom: 9px;
+    color:#FF7F50;
+}
+
+.features-section > .columns-wrapper > .column > .button1 {
+    color:rgb(62, 121, 77);
+    text-decoration: none;
+}
+
+.features-section > .columns-wrapper > .column > .button1:hover {
+    color:#FF7F50;
+    transition: 0s;
+    text-decoration: none;
+}
+
